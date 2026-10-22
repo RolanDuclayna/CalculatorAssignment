@@ -9,7 +9,7 @@ public class Calculator {
     }
 
     public int multiply(int x, int y) {
-        return -4;
+        return x * y;
     }
 
 }
