@@ -5,7 +5,7 @@ public class Calculator {
     }
 
     public int subtract(int x, int y) {
-        return -2;
+        return 0;
     }
 
 }
