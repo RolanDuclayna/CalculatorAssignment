@@ -2,6 +2,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 public class CalculatorTesting {
     Calculator calculator = new Calculator();
@@ -42,6 +44,12 @@ public class CalculatorTesting {
 
     @Test
     public void testIsEven() {
-        assertEquals(true, calculator.isEven(2));
+        assertEquals(true, calculator.isEven(6));
+    }
+
+    @Test
+    public void testBooleans() {
+        assertTrue(calculator.isEven(4));
+        assertFalse(calculator.isEven(7));
     }
 }
