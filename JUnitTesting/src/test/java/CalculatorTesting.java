@@ -26,4 +26,9 @@ public class CalculatorTesting {
     public void testMultiply() {
         assertEquals(-4, calculator.multiply(2, -2));
     }
+
+    @Test
+    public void testDivide() {
+        assertEquals(1, calculator.divide(4, 4));
+    }
 }
