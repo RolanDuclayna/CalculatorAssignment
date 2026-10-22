@@ -39,4 +39,9 @@ public class CalculatorTesting {
             calculator.divide(10, 0);
         });
     }
+
+    @Test
+    public void testIsEven() {
+        assertEquals(true, calculator.isEven(2));
+    }
 }
