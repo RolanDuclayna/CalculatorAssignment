@@ -7,8 +7,8 @@ public class CalculatorTesting {
 
     @Test
     public void testSum() {
-        int expected = -1;
-        int actual = 2;
+        int expected = 0;
+        int actual = calculator.sum(-1, 1);
         assertEquals(expected, actual);
     }
 }
